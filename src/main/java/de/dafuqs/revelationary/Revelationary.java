@@ -3,6 +3,7 @@ package de.dafuqs.revelationary;
 import de.dafuqs.revelationary.api.advancements.AdvancementCriteria;
 import net.neoforged.bus.api.*;
 import net.neoforged.fml.ModList;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.AddReloadListenerEvent;
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
@@ -10,6 +11,7 @@ import net.neoforged.neoforge.event.server.ServerStartedEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+@Mod(Revelationary.MOD_ID)
 public class Revelationary {
     public static final String MOD_ID = "revelationary";
     private static final Logger LOGGER = LoggerFactory.getLogger("Revelationary");

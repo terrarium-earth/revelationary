@@ -3,7 +3,6 @@ package de.dafuqs.revelationary.api.advancements;
 import de.dafuqs.revelationary.*;
 import de.dafuqs.revelationary.advancement_criteria.AdvancementCountCriterion;
 import de.dafuqs.revelationary.advancement_criteria.AdvancementGottenCriterion;
-import net.minecraft.advancements.*;
 import net.minecraft.core.registries.*;
 import net.neoforged.bus.api.*;
 import net.neoforged.neoforge.registries.*;
