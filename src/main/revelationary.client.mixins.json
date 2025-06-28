@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "de.dafuqs.revelationary.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "client.AccessorClientAdvancementManager",
+    "client.BlockClientMixin",
+    "client.BlockModelsMixin",
+    "client.ClientAdvancementManagerMixin",
+    "client.ItemMixin",
+    "client.ItemModelsMixin",
+    "client.MinecraftClientMixin",
+    "client.WorldRendererMixin",
+    "client.WorldRendererMixinAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
